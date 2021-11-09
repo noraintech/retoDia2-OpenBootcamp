@@ -1,0 +1,66 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calcula tu hipoteca</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="formulario">
+        <form id="formulario" action="#">
+          <div>
+            <p>Precio inmbueble:</p>
+
+            <input
+              type="number"
+              id="precioInmueble"
+              name="precioInmueble"
+              min="0"
+              max="2000000"
+              value="20000"
+              step="10000"
+            />
+          </div>
+
+          
+
+          <div>
+            <p>Plazo en meses:</p>
+
+            <input
+              type="number"
+              id="plazoEnMeses"
+              name="plazoMeses"
+              min="0"
+              max="300"
+              value="0"
+              step="0"
+            />
+            
+          </div>
+
+          <div>
+            <p>Interés:</p>
+
+            <input type="text" id="tipoInteres" name="tipoInteres" />
+            
+          </div>
+          <div class="boton">
+            <button id="boton">Calcula tu hipoteca</button>
+          </div>
+        </form>
+
+        <div id="resultado">Tu cuota mensual:
+            <span id="resultado-definitivo">0</span>$
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

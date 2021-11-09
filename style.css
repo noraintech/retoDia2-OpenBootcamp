@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins:wght@100;200;300;400;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;  
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: url(./pexels-binyamin-mellish-106399.jpg);
+  background-size: 100vw 100vh;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+p{
+    font-size: large;
+}
+
+.formulario {
+  color: white;
+  width: 450px;
+  background: rgba(38, 56, 108, 0.615);
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 50px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+form > div > input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  border: none;
+  
+}
+
+.boton> button{
+    font-size: 1.2em;
+}
+
+.boton{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#resultado {
+    margin-top: 40px;
+    font-size: 1.3em;
+}
